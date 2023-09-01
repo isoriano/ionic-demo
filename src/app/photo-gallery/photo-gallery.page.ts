@@ -2,11 +2,11 @@ import { Component, OnInit, inject } from '@angular/core';
 import { PhotoService } from '../services/photo.service';
 
 @Component({
-  selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss'],
+  selector: 'app-photo-gallery',
+  templateUrl: 'photo-gallery.page.html',
+  styleUrls: ['photo-gallery.page.scss'],
 })
-export class Tab2Page implements OnInit {
+export class PhotoGalleryPage implements OnInit {
   photoService = inject(PhotoService);
 
   async ngOnInit() {
